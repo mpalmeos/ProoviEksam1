@@ -41,9 +41,9 @@ public class Ring extends Application {
         String y = koordinaatY.getText();
         String r = raadius.getText();
 
-        xTelg = 123;
-        yTelg =254;
-        ringiRaadius = 56;
+        xTelg = Integer.parseInt(x);
+        yTelg = Integer.parseInt(y);
+        ringiRaadius = Integer.parseInt(r);
 
         kast.setAlignment(Pos.CENTER);
         kast.getChildren().addAll(koordinaatX, koordinaatY, raadius, edasi);
